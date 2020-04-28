@@ -10,6 +10,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+//This is base request class
 public class BaseRequest {
 	
 	public static RequestSpecification headers;
